@@ -1,7 +1,11 @@
-package com.poleszak.longest_substring;
+package com.poleszak.longestSubstring.tools;
 
 public class BruteForceSubstringFinder {
 
+    /*
+    Algorithm: Brute Force
+    Complexity: O(n)
+    */
     public int lengthOfLongestSubstring(String s) {
         int maxLength = 0;
 
