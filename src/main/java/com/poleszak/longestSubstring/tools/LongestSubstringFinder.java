@@ -9,7 +9,7 @@ public class LongestSubstringFinder {
     Algorithm: Brute Force
     Complexity: O(n)
     */
-    public int lengthOfLongestSubstringBruteForce(String s) {
+    public static int lengthOfLongestSubstringBruteForce(String s) {
         int maxLength = 0;
 
         for (int i = 0; i < s.length(); i++) {
@@ -32,7 +32,7 @@ public class LongestSubstringFinder {
    Algorithm: Sliding Window Algorithm
    Complexity: O(n²)
    */
-    public int lengthOfLongestSubstringFast(String s) {
+    public static int lengthOfLongestSubstringFast(String s) {
         int maxLength = 0;
         Map<Character, Integer> checkedCharacters = new HashMap<>();
 
@@ -51,7 +51,7 @@ public class LongestSubstringFinder {
         return maxLength;
     }
 
-    public int lengthOfLongestSubstringSpeedy(String s) {
+    public static int lengthOfLongestSubstringSpeedy(String s) {
         int maxLength = 0;
 
 
