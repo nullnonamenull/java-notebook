@@ -1,8 +1,6 @@
 package com.poleszak.longestSubstring;
 
-import com.poleszak.longestSubstring.tools.BruteForceSubstringFinder;
-import com.poleszak.longestSubstring.tools.FastSubstringFinder;
-import com.poleszak.longestSubstring.tools.SpeedySubstringFinder;
+import com.poleszak.longestSubstring.tools.LongestSubstringFinder;
 
 public class Main {
 
@@ -10,13 +8,11 @@ public class Main {
         String str = "abcabcfdssdfsdfsadfasdfsadfabcabcd";
 
 
-        BruteForceSubstringFinder bruteForceSubstringFinder = new BruteForceSubstringFinder();
-        FastSubstringFinder fastSubstringFinder = new FastSubstringFinder();
-        SpeedySubstringFinder speedySubstringFinder = new SpeedySubstringFinder();
+        LongestSubstringFinder bruteForceSubstringFinder = new LongestSubstringFinder();
 
-        int maxLengthBruteForceMethod = bruteForceSubstringFinder.lengthOfLongestSubstring(str);
-        int maxLengthFastMethod = fastSubstringFinder.lengthOfLongestSubstring(str);
-        int maxLengthSpeedyMethod = speedySubstringFinder.lengthOfLongestSubstring(str);
+        int maxLengthBruteForceMethod = bruteForceSubstringFinder.lengthOfLongestSubstringBruteForce(str);
+        int maxLengthFastMethod = bruteForceSubstringFinder.lengthOfLongestSubstringFast(str);
+        int maxLengthSpeedyMethod = bruteForceSubstringFinder.lengthOfLongestSubstringSpeedy(str);
 
 
         System.out.println(maxLengthBruteForceMethod);
