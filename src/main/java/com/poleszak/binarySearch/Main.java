@@ -1,7 +1,5 @@
 package com.poleszak.binarySearch;
 
-import com.poleszak.binarySearch.tools.BinarySearch;
-
 import java.util.Arrays;
 
 public class Main {

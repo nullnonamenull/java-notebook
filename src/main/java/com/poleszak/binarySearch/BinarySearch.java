@@ -1,4 +1,4 @@
-package com.poleszak.binarySearch.tools;
+package com.poleszak.binarySearch;
 
 public class BinarySearch {
 

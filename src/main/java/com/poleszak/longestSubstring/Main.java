@@ -1,7 +1,5 @@
 package com.poleszak.longestSubstring;
 
-import com.poleszak.longestSubstring.tools.LongestSubstringFinder;
-
 public class Main {
 
     public static void main(String[] args) {

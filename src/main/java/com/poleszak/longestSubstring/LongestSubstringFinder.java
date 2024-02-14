@@ -1,4 +1,4 @@
-package com.poleszak.longestSubstring.tools;
+package com.poleszak.longestSubstring;
 
 import java.util.HashMap;
 import java.util.Map;
