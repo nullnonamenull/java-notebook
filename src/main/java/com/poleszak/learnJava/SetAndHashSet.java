@@ -24,16 +24,18 @@ public class SetAndHashSet {
 
             - HashSet:
                     - HashSet implementation uses a hash table as its storage mechanism
+                    - Uses HashTable - HashMap instance
                     - HashTable - Extremely fast operations
                     - Operations takes constant amount time
             TreeSet:
                     - Elements will be ordered - their natural ordering
                     - Uses TreeMap
-                    - Much slower than HashSet
+                    - Much slower than HashSet - log(n)
 
             LinkedHashSet:
                     - Exact same order that elements were added
                     - Almost as fast as a HashSet
+                    - Uses HashMap and LinkedList
 
             - When?
                 - don't care about order
