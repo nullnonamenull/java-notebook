@@ -3,6 +3,7 @@ package com.poleszak.sortAlgorithms;
 import com.poleszak.common.DataPreparation;
 
 import java.lang.reflect.Method;
+import java.util.Arrays;
 
 public class Main {
 
@@ -12,7 +13,8 @@ public class Main {
         Class<?>[] sortClasses = {
                 QuickSort.class,
                 InsertionSort.class,
-                SelectionSort.class
+                SelectionSort.class,
+                BubbleSort.class
         };
 
         for (Class<?> sortClass : sortClasses) {
