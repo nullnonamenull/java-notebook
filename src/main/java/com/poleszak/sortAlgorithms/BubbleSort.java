@@ -2,6 +2,10 @@ package com.poleszak.sortAlgorithms;
 
 public class BubbleSort {
 
+    /*
+    Algorithm: Bubble Sort
+    Complexity: O(n²)
+    */
     public static void sort(int[] numbers) {
         boolean swapped = true;
 
