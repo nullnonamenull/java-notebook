@@ -1,4 +1,4 @@
-package com.poleszak.quickSort;
+package com.poleszak.sortAlgorithms;
 
 public class QuickSort {
 

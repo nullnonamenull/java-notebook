@@ -7,7 +7,7 @@ public class LongestSubstringFinder {
 
     /*
     Algorithm: Brute Force
-    Complexity: O(n)
+    Complexity: O(n²)
     */
     public static int lengthOfLongestSubstringBruteForce(String s) {
         int maxLength = 0;
@@ -30,7 +30,7 @@ public class LongestSubstringFinder {
 
     /*
    Algorithm: Sliding Window Algorithm
-   Complexity: O(n²)
+   Complexity: O(n)
    */
     public static int lengthOfLongestSubstringFast(String s) {
         int maxLength = 0;

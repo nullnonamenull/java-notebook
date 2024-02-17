@@ -1,4 +1,4 @@
-package com.poleszak.insertionSort;
+package com.poleszak.sortAlgorithms;
 
 public class InsertionSort {
 

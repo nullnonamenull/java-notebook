@@ -1,4 +1,4 @@
-package com.poleszak.selectionSort;
+package com.poleszak.sortAlgorithms;
 
 public class SelectionSort {
 
