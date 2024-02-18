@@ -3,7 +3,6 @@ package com.poleszak.sortAlgorithms;
 import com.poleszak.common.DataPreparation;
 
 import java.lang.reflect.Method;
-import java.util.Arrays;
 
 public class Main {
 
