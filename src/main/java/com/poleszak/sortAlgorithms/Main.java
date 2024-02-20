@@ -13,7 +13,8 @@ public class Main {
                 QuickSort.class,
                 InsertionSort.class,
                 SelectionSort.class,
-                BubbleSort.class
+                BubbleSort.class,
+                MergeSort.class
         };
 
         for (Class<?> sortClass : sortClasses) {
@@ -23,15 +24,13 @@ public class Main {
 
     public static void runSortAlgorithm(Class<?> sortClass, int[] array, String methodName) {
         try {
-//            System.out.println("LIST BEFORE SORT: " + Arrays.toString(array));
             Method sortMethod = sortClass.getDeclaredMethod(methodName, int[].class);
 
             long startTime = System.currentTimeMillis();
-            sortMethod.invoke(null, (Object) array);
+            sortMethod.invoke(null, array);
             long endTime = System.currentTimeMillis();
 
             System.out.println(sortClass.getSimpleName() + ": Took " + (endTime - startTime) + "ms");
-//            System.out.println("LIST AFTER SORT: " + Arrays.toString(array) + "\n");
         } catch (Exception e) {
             e.printStackTrace();
         }
