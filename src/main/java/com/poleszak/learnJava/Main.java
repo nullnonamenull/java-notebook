@@ -8,5 +8,8 @@ public class Main {
         SetAndHashSet.learnSets();
         System.out.println("\n\n\nMAPS");
         MapAndHashMap.learnMaps();
+        System.out.println("\n\n\nMULTITHREADING");
+        Multithreading.learnMultithreading();
+        Multithreading.learnMultithreading();
     }
 }
