@@ -13,5 +13,7 @@ public class Main {
         System.out.println("\n\n\nMULTITHREADING");
         Multithreading.learnMultithreading();
         Multithreading.learnMultithreading();
+        System.out.println("\n\n\nOPTIONAL");
+        OptionalLearn.learnOptional();
     }
 }
