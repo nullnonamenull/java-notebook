@@ -23,5 +23,6 @@ public class RunPattern {
         System.out.println(studentList);
     }
 
+    private static void proxyPattern() {
+    }
 }
-
