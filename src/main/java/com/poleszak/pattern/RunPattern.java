@@ -50,5 +50,6 @@ public class RunPattern {
         System.out.println("\n\nSUBJECT PROXY");
         Subject proxy = new Proxy();
         proxy.request();
+        proxy.request();
     }
 }
