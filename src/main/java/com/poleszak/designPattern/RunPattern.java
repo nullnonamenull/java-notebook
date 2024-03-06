@@ -1,13 +1,13 @@
-package com.poleszak.pattern;
+package com.poleszak.designPattern;
 
-import com.poleszak.pattern.structural.adapter.Student;
-import com.poleszak.pattern.structural.adapter.StudentClient;
-import com.poleszak.pattern.structural.proxy.internet.Internet;
-import com.poleszak.pattern.structural.proxy.internet.ProxyInternet;
-import com.poleszak.pattern.structural.proxy.subject.Proxy;
-import com.poleszak.pattern.structural.proxy.subject.Subject;
-import com.poleszak.pattern.structural.proxy.video.ProxyVideoDownloader;
-import com.poleszak.pattern.structural.proxy.video.VideoDownloader;
+import com.poleszak.designPattern.structural.adapter.Student;
+import com.poleszak.designPattern.structural.adapter.StudentClient;
+import com.poleszak.designPattern.structural.proxy.internet.Internet;
+import com.poleszak.designPattern.structural.proxy.internet.ProxyInternet;
+import com.poleszak.designPattern.structural.proxy.subject.Proxy;
+import com.poleszak.designPattern.structural.proxy.subject.Subject;
+import com.poleszak.designPattern.structural.proxy.video.ProxyVideoDownloader;
+import com.poleszak.designPattern.structural.proxy.video.VideoDownloader;
 
 import java.util.List;
 

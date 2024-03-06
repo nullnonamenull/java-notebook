@@ -1,4 +1,4 @@
-package com.poleszak.pattern.structural.adapter;
+package com.poleszak.designPattern.structural.adapter;
 
 public class CollegeStudent implements Student {
     private final String name;

@@ -1,4 +1,4 @@
-package com.poleszak.pattern.structural.adapter;
+package com.poleszak.designPattern.structural.adapter;
 
 import java.util.ArrayList;
 import java.util.List;

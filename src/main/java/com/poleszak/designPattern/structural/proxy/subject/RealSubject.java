@@ -1,4 +1,4 @@
-package com.poleszak.pattern.structural.proxy.subject;
+package com.poleszak.designPattern.structural.proxy.subject;
 
 public class RealSubject implements Subject{
 

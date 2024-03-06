@@ -1,4 +1,4 @@
-package com.poleszak.pattern.structural.proxy.internet;
+package com.poleszak.designPattern.structural.proxy.internet;
 
 public class RealInternet implements Internet {
 

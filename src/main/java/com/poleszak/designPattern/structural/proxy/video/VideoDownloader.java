@@ -1,4 +1,4 @@
-package com.poleszak.pattern.structural.proxy.video;
+package com.poleszak.designPattern.structural.proxy.video;
 
 
 public interface VideoDownloader {
