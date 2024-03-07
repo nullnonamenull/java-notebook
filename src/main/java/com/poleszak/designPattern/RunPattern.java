@@ -1,5 +1,7 @@
 package com.poleszak.designPattern;
 
+import com.poleszak.designPattern.creational.singleton.EagerLoadingLogger;
+import com.poleszak.designPattern.creational.singleton.LazyLoadingLogger;
 import com.poleszak.designPattern.structural.adapter.Student;
 import com.poleszak.designPattern.structural.adapter.StudentClient;
 import com.poleszak.designPattern.structural.proxy.internet.Internet;
@@ -18,11 +20,12 @@ public class RunPattern {
         adapterPattern();
         System.out.println("\n\nPATTERN -> STRUCTURAL -> PROXY");
         proxyPattern();
+        System.out.println("\n\nCREATIONAL -> STRUCTURAL -> PROXY");
+        singletonLearn();
     }
 
 
     private static void adapterPattern() {
-
         /*
             Example of adapter pattern in Java: Arrays.asList(array)
         */
@@ -51,5 +54,22 @@ public class RunPattern {
         Subject proxy = new Proxy();
         proxy.request();
         proxy.request();
+    }
+
+    private static void singletonLearn() {
+        EagerLoadingLogger eagerLogger = EagerLoadingLogger.getInstance();
+        System.out.println("EagerLoadingLogger instance: " + eagerLogger);
+
+        EagerLoadingLogger anotherEagerLogger = EagerLoadingLogger.getInstance();
+        System.out.println("Another EagerLoadingLogger instance: " + anotherEagerLogger);
+
+        LazyLoadingLogger lazyLogger = LazyLoadingLogger.getInstance();
+        System.out.println("LazyLoadingLogger instance: " + lazyLogger);
+
+        LazyLoadingLogger anotherLazyLogger = LazyLoadingLogger.getInstance();
+        System.out.println("Another LazyLoadingLogger instance: " + anotherLazyLogger);
+
+        System.out.println("Are both EagerLoadingLogger instances the same? " + (eagerLogger == anotherEagerLogger));
+        System.out.println("Are both LazyLoadingLogger instances the same? " + (lazyLogger == anotherLazyLogger));
     }
 }
