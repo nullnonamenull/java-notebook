@@ -4,7 +4,8 @@ import com.poleszak.designPattern.creational.singleton.EagerLoadingLogger;
 import com.poleszak.designPattern.creational.singleton.LazyLoadingLogger;
 import com.poleszak.designPattern.structural.adapter.Student;
 import com.poleszak.designPattern.structural.adapter.StudentClient;
-import com.poleszak.designPattern.structural.bridge.Client;
+import com.poleszak.designPattern.structural.bridge.absttraction.AbstractionClient;
+import com.poleszak.designPattern.structural.bridge.car.CarClient;
 import com.poleszak.designPattern.structural.proxy.internet.Internet;
 import com.poleszak.designPattern.structural.proxy.internet.ProxyInternet;
 import com.poleszak.designPattern.structural.proxy.subject.Proxy;
@@ -82,6 +83,7 @@ public class RunPattern {
         *   separate hierarchies which can
         *   be developed independently
         * */
-        Client.client();
+        AbstractionClient.client();
+        CarClient.client();
     }
 }

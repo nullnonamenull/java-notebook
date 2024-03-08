@@ -1,6 +1,6 @@
-package com.poleszak.designPattern.structural.bridge;
+package com.poleszak.designPattern.structural.bridge.absttraction;
 
-public class Client {
+public class AbstractionClient {
     public static void client() {
         Implementor implementor = new ConcreteImplementorA();
         Abstraction abstraction = new ConcreteAbstraction(implementor);

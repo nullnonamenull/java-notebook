@@ -1,4 +1,4 @@
-package com.poleszak.designPattern.structural.bridge;
+package com.poleszak.designPattern.structural.bridge.absttraction;
 
 public class ConcreteImplementorB extends Implementor {
 
