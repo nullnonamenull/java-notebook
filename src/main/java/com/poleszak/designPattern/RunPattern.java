@@ -18,12 +18,12 @@ import java.util.List;
 public class RunPattern {
 
     public static void main(String[] args) {
-//        System.out.println("PATTERN -> STRUCTURAL -> ADAPTER");
-//        adapterPattern();
-//        System.out.println("\n\nPATTERN -> STRUCTURAL -> PROXY");
-//        proxyPattern();
-//        System.out.println("\n\nCREATIONAL -> STRUCTURAL -> PROXY");
-//        singletonLearn();
+        System.out.println("PATTERN -> STRUCTURAL -> ADAPTER");
+        adapterPattern();
+        System.out.println("\n\nPATTERN -> STRUCTURAL -> PROXY");
+        proxyPattern();
+        System.out.println("\n\nCREATIONAL -> STRUCTURAL -> PROXY");
+        singletonLearn();
         System.out.println("\n\nCREATIONAL -> STRUCTURAL -> BRIDGE");
         bridgePattern();
     }
