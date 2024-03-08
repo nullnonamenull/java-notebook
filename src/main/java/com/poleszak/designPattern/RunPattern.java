@@ -4,6 +4,7 @@ import com.poleszak.designPattern.creational.singleton.EagerLoadingLogger;
 import com.poleszak.designPattern.creational.singleton.LazyLoadingLogger;
 import com.poleszak.designPattern.structural.adapter.Student;
 import com.poleszak.designPattern.structural.adapter.StudentClient;
+import com.poleszak.designPattern.structural.bridge.Client;
 import com.poleszak.designPattern.structural.proxy.internet.Internet;
 import com.poleszak.designPattern.structural.proxy.internet.ProxyInternet;
 import com.poleszak.designPattern.structural.proxy.subject.Proxy;
@@ -16,12 +17,14 @@ import java.util.List;
 public class RunPattern {
 
     public static void main(String[] args) {
-        System.out.println("PATTERN -> STRUCTURAL -> ADAPTER");
-        adapterPattern();
-        System.out.println("\n\nPATTERN -> STRUCTURAL -> PROXY");
-        proxyPattern();
-        System.out.println("\n\nCREATIONAL -> STRUCTURAL -> PROXY");
-        singletonLearn();
+//        System.out.println("PATTERN -> STRUCTURAL -> ADAPTER");
+//        adapterPattern();
+//        System.out.println("\n\nPATTERN -> STRUCTURAL -> PROXY");
+//        proxyPattern();
+//        System.out.println("\n\nCREATIONAL -> STRUCTURAL -> PROXY");
+//        singletonLearn();
+        System.out.println("\n\nCREATIONAL -> STRUCTURAL -> BRIDGE");
+        bridgePattern();
     }
 
 
@@ -71,5 +74,14 @@ public class RunPattern {
 
         System.out.println("Are both EagerLoadingLogger instances the same? " + (eagerLogger == anotherEagerLogger));
         System.out.println("Are both LazyLoadingLogger instances the same? " + (lazyLogger == anotherLazyLogger));
+    }
+
+    private static void bridgePattern() {
+        /*
+        *   Splits a large class into two
+        *   separate hierarchies which can
+        *   be developed independently
+        * */
+        Client.client();
     }
 }
