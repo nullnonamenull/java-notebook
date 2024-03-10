@@ -26,6 +26,7 @@ public class RunPattern {
         singletonLearn();
         System.out.println("\n\nCREATIONAL -> STRUCTURAL -> BRIDGE");
         bridgePattern();
+        System.out.println("\n\nCREATIONAL -> CREATIONAL -> BUILDER");
     }
 
 
@@ -85,5 +86,9 @@ public class RunPattern {
         * */
         AbstractionClient.client();
         CarClient.client();
+    }
+
+    private static void builderPattern() {
+
     }
 }
