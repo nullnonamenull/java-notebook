@@ -27,6 +27,7 @@ public class RunPattern {
         System.out.println("\n\nCREATIONAL -> STRUCTURAL -> BRIDGE");
         bridgePattern();
         System.out.println("\n\nCREATIONAL -> CREATIONAL -> BUILDER");
+        builderPattern();
     }
 
 
