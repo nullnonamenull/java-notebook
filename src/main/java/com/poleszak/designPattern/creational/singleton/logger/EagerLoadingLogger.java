@@ -1,4 +1,4 @@
-package com.poleszak.designPattern.creational.singleton;
+package com.poleszak.designPattern.creational.singleton.logger;
 
 public class EagerLoadingLogger {
     private static final EagerLoadingLogger instance = new EagerLoadingLogger();

@@ -1,4 +1,4 @@
-package com.poleszak.designPattern.creational.singleton;
+package com.poleszak.designPattern.creational.singleton.logger;
 
 public class LazyLoadingLogger {
     private static LazyLoadingLogger instance;

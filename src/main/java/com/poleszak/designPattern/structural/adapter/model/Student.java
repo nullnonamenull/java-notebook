@@ -1,4 +1,4 @@
-package com.poleszak.designPattern.structural.adapter;
+package com.poleszak.designPattern.structural.adapter.model;
 
 public interface Student {
 

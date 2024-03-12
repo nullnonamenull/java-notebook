@@ -1,6 +1,6 @@
-package com.poleszak.designPattern.structural.adapter;
+package com.poleszak.designPattern.structural.adapter.model;
 
-public class SchoolStudentAdapter implements Student{
+public class SchoolStudentAdapter implements Student {
 
     private final SchoolStudent schoolStudent;
 
