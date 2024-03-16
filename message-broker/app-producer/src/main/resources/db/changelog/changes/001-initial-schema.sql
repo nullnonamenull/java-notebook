@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS messages;
 -- changeset jaba:create_table
 CREATE TABLE message
 (
-    id    SERIAL PRIMARY KEY,
+    id      SERIAL PRIMARY KEY,
     message VARCHAR(255) NOT NULL
 );
 
@@ -97,3 +97,7 @@ VALUES ('Message 2');
 -- changeset jaba:insert_22
 INSERT INTO message (message)
 VALUES ('Message 2');
+
+-- changeset jaba:insert_23
+INSERT INTO message (message)
+VALUES ('Ouee its working i think (;');
