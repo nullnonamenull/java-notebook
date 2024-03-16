@@ -3,20 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.poleszak</groupId>
+        <artifactId>message-broker</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>com.poleszak</groupId>
-    <artifactId>java-notebook</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>design-pattern</module>
-        <module>binary-search</module>
-        <module>fibonacci</module>
-        <module>learn-java</module>
-        <module>longest-substring</module>
-        <module>sort-algorithm</module>
-        <module>message-broker</module>
-    </modules>
+    <artifactId>consumer-application</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
