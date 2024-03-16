@@ -9,17 +9,33 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>message-broker</artifactId>
     <packaging>pom</packaging>
+
     <modules>
-        <module>producer-application</module>
-        <module>consumer-application</module>
+        <module>app-producer</module>
+        <module>app-consumer</module>
     </modules>
+
+
+    <artifactId>message-broker</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>3.2.3</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 
 </project>

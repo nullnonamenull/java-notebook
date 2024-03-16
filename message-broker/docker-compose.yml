@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  db:
+    container_name: message-broker-base
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: message-base
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
