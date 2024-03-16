@@ -1,9 +1,10 @@
-package com.poleszak.learnJava.multithreading;
+package com.poleszak.learnjava.multithreading;
 
-public class MultithreadImplementsRunnable implements Runnable {
+public class MultithreadExtendsThread extends Thread {
+
     @Override
     public void run() {
-        for (int i = 5; i <= 10; i++) {
+        for (int i = 0; i <= 5; i++) {
             System.out.println(i);
             try {
                 Thread.sleep(1000);

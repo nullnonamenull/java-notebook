@@ -1,7 +1,8 @@
-package com.poleszak.learnJava;
+package com.poleszak.learnjava;
 
-import com.poleszak.learnJava.multithreading.MultithreadExtendsThread;
-import com.poleszak.learnJava.multithreading.MultithreadImplementsRunnable;
+
+import com.poleszak.learnjava.multithreading.MultithreadExtendsThread;
+import com.poleszak.learnjava.multithreading.MultithreadImplementsRunnable;
 
 public class Multithreading {
 

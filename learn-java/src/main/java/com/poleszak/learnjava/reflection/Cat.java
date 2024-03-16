@@ -1,4 +1,4 @@
-package com.poleszak.learnJava.reflection;
+package com.poleszak.learnjava.reflection;
 
 public class Cat {
 

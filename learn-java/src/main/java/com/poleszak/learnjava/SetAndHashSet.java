@@ -1,4 +1,4 @@
-package com.poleszak.learnJava;
+package com.poleszak.learnjava;
 
 import java.util.ArrayList;
 import java.util.HashSet;

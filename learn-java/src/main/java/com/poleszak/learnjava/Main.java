@@ -1,4 +1,4 @@
-package com.poleszak.learnJava;
+package com.poleszak.learnjava;
 
 public class Main {
 

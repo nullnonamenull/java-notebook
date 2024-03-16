@@ -1,6 +1,7 @@
-package com.poleszak.learnJava;
+package com.poleszak.learnjava;
 
-import com.poleszak.learnJava.reflection.Cat;
+
+import com.poleszak.learnjava.reflection.Cat;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
