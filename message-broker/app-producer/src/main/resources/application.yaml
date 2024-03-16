@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: app-producer
+  datasource:
+    url: jdbc:postgresql://localhost:5432/message-base
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: create-drop
+        format_sql: true
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog.master.yaml
