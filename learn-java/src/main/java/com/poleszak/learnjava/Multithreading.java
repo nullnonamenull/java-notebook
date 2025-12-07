@@ -13,7 +13,7 @@ public class Multithreading {
         MultithreadImplementsRunnable implementsRunnable = new MultithreadImplementsRunnable();
         MultithreadImplementsRunnable implementsRunnableSecond = new MultithreadImplementsRunnable();
         Thread threadOne = new Thread(implementsRunnable);
-        Thread threadTwo = new Thread(implementsRunnable);
+        Thread threadTwo = new Thread(implementsRunnableSecond);
 
         multithreadThing.start();
         multithreadThingSecond.start();
