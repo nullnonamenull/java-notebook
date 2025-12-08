@@ -17,6 +17,7 @@
         <module>sort-algorithm</module>
         <module>message-broker</module>
         <module>odd-numbers-in-range</module>
+        <module>count-square-sum-triples</module>
     </modules>
 
     <properties>
